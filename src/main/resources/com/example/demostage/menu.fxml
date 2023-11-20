@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demostage.controllerrh">
+   <children>
+      <Label alignment="CENTER" prefHeight="106.0" prefWidth="903.0" style="-fx-background-color: #0d62d9;" text="Ressources Humaines" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="40.0" layoutY="34.0" mnemonicParsing="false" onAction="#logout" prefHeight="37.0" prefWidth="99.0" style="-fx-background-radius: 15; -fx-cursor: hand;" styleClass="red_button" stylesheets="@styles/style.css" text="Log out" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="106.0" layoutY="219.0" mnemonicParsing="false" onAction="#gotolistempl" prefHeight="191.0" prefWidth="343.0" style="-fx-background-radius: 15;" styleClass="red_button" stylesheets="@styles/style.css" text="Employées" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="474.0" layoutY="219.0" mnemonicParsing="false" onAction="#gopresence" prefHeight="191.0" prefWidth="343.0" style="-fx-background-radius: 15;" styleClass="red_button" stylesheets="@styles/style.css" text="Présence/Abscence" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="399.0" layoutY="458.0" mnemonicParsing="false" onAction="#Start_script" prefHeight="37.0" prefWidth="99.0" style="-fx-background-radius: 15; -fx-cursor: hand;" styleClass="red_button" stylesheets="@styles/style.css" text="Start_script" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
